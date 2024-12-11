@@ -1,1 +1,67 @@
 /* Write your CSS here */
+.project-container {
+    width: 100%;
+    height: 100%;
+    margin: 7px 0;
+}
+.project-img {
+    width: 100%;
+    border-radius: 10px;
+}
+.project-duration-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    padding: 10px 0;
+}
+.course-title {
+    color: #171f46;
+    font-family: 'roboto';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+.project-days-con {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.duration {
+    color: #171f46;
+    font-family: 'roboto';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.description {
+    color: #1e293b;
+    font-family: 'roboto';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.5;
+    padding: 10px 0 0 0;
+}
+.website-link {
+    color: #0967d2;
+    font-family: 'roboto';
+    font-size: 10x;
+    font-weight: 500;
+    text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+    .project-duration-con {
+        flex-direction: row;
+        align-items: center;
+    }
+    .course-title {
+        font-size: 24px;
+    }
+    .duration {
+        font-size: 14px;
+    }
+    .description {
+        font-size: 16px;
+    }
+}
